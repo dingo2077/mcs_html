@@ -34,7 +34,7 @@
     color: rgb(180, 14, 14);
     font-weight: bold;
     align-items: center;
-    justify-content: space-between; /*не работает выравнивание по центру..*/
+    justify-content: center; /*не работает выравнивание по центру..*/
 }
 
 .footer {
