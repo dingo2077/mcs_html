@@ -1,0 +1,48 @@
+.body_1 {
+    padding: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    }
+
+.header {
+    display: flex;
+    height:30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    }
+
+.middle {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    }
+
+.middle_1,
+.middle_2,
+.middle_3 {
+    display: flex;
+    border: 2px solid rgb(218, 19, 19);
+    background-color:rgb(245, 239, 233);
+    width: 150px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    color: rgb(180, 14, 14);
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between; /*не работает выравнивание по центру..*/
+}
+
+.footer {
+   display: flex;
+    height:30px;
+    background-color: red;
+    color: white;
+    font-weight: normal;
+    align-items: center;
+    justify-content: right;
+}
