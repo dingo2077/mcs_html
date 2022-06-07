@@ -1,0 +1,125 @@
+/*.header {
+    background-image: linear-gradient(#ffffff 50%, #4c00ff 90%);
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.header {
+    position: absolute;
+    background-color: rgb(2, 54, 150);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    color: rgb(235, 0, 184);
+    font-size: 30;
+}
+
+
+.menu li {
+    padding: 10px;
+    float:left;
+    padding-left: 10px;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(235, 0, 184);
+    }
+
+.hero {
+        width: 1300px;
+
+}
+
+h2 {
+    position: absolute;
+    top		: 100;
+	left	: 550;
+	color: rgb(235, 0, 184);
+    font-family: 'Impact';
+    font-size: 90;
+    
+}
+
+
+.textbox_top {
+    margin: auto;
+    margin-top: 25px;
+    padding: 50px;
+    border: 2px solid rgb(230, 69, 181);
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    color: rgb(97, 88, 95);
+    
+}
+
+
+.images {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    }
+
+
+    .textbox_bottom_0 {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+        
+       
+    .textbox_bottom_1 {
+        display: flex;
+        width: 300px;
+        height: 125px;
+        margin: 10px;
+        border-radius: 30px;
+        color: rgb(97, 88, 95);
+        font-weight: bold;
+        align-items: center;
+        justify-content: center; /*не работает выравнивание по центру..*/
+        text-align: center;
+    }
+        
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(2, 54, 150);
+        border: 1px solid rgb(66, 7, 7);
+        color: rgb(235, 0, 184);
+        font-weight: bold;
+    }  
+    
+    
+    a:link {
+        color: rgb(252, 11, 132);
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(252, 11, 132);
+      }
+      
+      a:hover {
+        color: rgb(252, 11, 132);
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: rgb(252, 11, 132);
+      }
+
+    
