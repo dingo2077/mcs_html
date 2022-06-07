@@ -27,6 +27,7 @@
     font-weight: bold;
     align-items: center;
     justify-content: center; /*не работает выравнивание по центру..*/
+    text-align: center;
 }
 
 .footer {
