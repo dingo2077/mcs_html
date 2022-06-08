@@ -12,7 +12,7 @@
 
 
 .header {
-    position: absolute;
+    position: fixed;
     background-color: rgb(2, 54, 150);
     display: flex;
     justify-content: space-around;
