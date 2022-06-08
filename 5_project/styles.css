@@ -1,8 +1,3 @@
-/*.header {
-    background-image: linear-gradient(#ffffff 50%, #4c00ff 90%);
-}
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +67,11 @@ h2 {
     margin-top: 10px;
     }
 
+.images p {
+    text-align: right;
+    max-width:300px; 
 
+}
     .textbox_bottom_0 {
         background-color: rgb(255, 255, 255);
         display: flex;
@@ -90,7 +89,7 @@ h2 {
         color: rgb(97, 88, 95);
         font-weight: bold;
         align-items: center;
-        justify-content: center; /*не работает выравнивание по центру..*/
+        justify-content: center; 
         text-align: center;
     }
         
@@ -122,4 +121,19 @@ h2 {
         color: rgb(252, 11, 132);
       }
 
+
+      .figcaption {
+        
+        display: flex;
+        width: 300px;
+        height: 125px;
+        margin: 10px;
+        border-radius: 30px;
+        color: rgb(97, 88, 95);
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(95, 186, 223);
+
+      }
     
