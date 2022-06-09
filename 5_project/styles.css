@@ -59,12 +59,20 @@ h2 {
     
 }
 
+.images-container {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
 
 .images {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    margin: 30px;
     }
 
 .images p {
@@ -122,18 +130,27 @@ h2 {
       }
 
 
+      .figure {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 300px;
+      }
+
       .figcaption {
         
         display: flex;
         width: 300px;
         height: 125px;
-        margin: 10px;
+        margin: 0;
         border-radius: 30px;
         color: rgb(97, 88, 95);
         font-weight: bold;
         align-items: center;
         text-align: center;
-        background-color: rgb(95, 186, 223);
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        
 
       }
     
