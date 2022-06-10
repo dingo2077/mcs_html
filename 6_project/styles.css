@@ -17,6 +17,9 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
       }
 
 
@@ -73,7 +76,7 @@
         margin-top: 10px;
         height: 60px;
         text-align: center;
-        width: 40%
+        width: 45%
         
         
         
